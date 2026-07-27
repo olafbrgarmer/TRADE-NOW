@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "infinity.trader.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"MerchantOfferMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

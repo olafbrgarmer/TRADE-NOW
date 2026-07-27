@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "trade-now",
+	"version": "${version}",
+	"name": "TRADE NOW",
+	"description": "No more cooldown on villager trades. 100% Server-side. (Just remove this mod to bring back the cooldown, idk why you would do that, but you can)",
+	"authors": [
+		"OlafBRGAMER_"
+	],
+	"contact": {
+		"homepage": "soon on https://modrinth.com/",
+		"sources": "https://github.com/olafbrgarmer/TRADE-NOW"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/trade-now/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"infinity.trader.TRADENOW"
+		]
+	},
+	"mixins": [
+		"trade-now.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
