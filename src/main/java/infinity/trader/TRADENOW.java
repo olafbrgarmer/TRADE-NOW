@@ -21,7 +21,7 @@ public class TRADENOW implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("[TRADE NOW] Cooldown de negociação dos villagers desativado. Trocas infinitas ativas.");
+		LOGGER.info("[TRADE NOW] Trade now started");
 	}
 
 	public static Identifier id(String path) {
